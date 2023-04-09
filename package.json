@@ -1,0 +1,15 @@
+{
+  "name": "login-component",
+  "version": "1.0.0",
+  "description": "Login component made with html+CSS+JS and Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "css-load":"npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mamoudou Diallo",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
